@@ -6,7 +6,7 @@ plr = game:GetService('Players').LocalPlayer
          while down do
              if not down then break end
              local char = plr.Character
-             char.HumanoidRootPart.Velocity = char.HumanoidRootPart.CFrame.lookVector * 120
+             char.HumanoidRootPart.Velocity = char.HumanoidRootPart.CFrame.lookVector * 300
              wait()
          end
      end
